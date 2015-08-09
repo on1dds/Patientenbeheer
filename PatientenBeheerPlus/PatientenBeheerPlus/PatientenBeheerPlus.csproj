@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F2C5931F-20CE-4571-AD56-CA6AEBF60E9D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PatientenBeheerPlus</RootNamespace>
+    <AssemblyName>PatientenBeheerPlus</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Services" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DB\Afdeling.cs" />
+    <Compile Include="DB\AfdelingDB.cs" />
+    <Compile Include="Formulieren %28Data Source%29\BewerkPatienten.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulieren %28Data Source%29\BewerkPatienten.Designer.cs">
+      <DependentUpon>BewerkPatienten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB\DB.cs" />
+    <Compile Include="frmGenereerPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenereerPatient.Designer.cs">
+      <DependentUpon>frmGenereerPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNieuwePrestatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNieuwePrestatie.Designer.cs">
+      <DependentUpon>frmNieuwePrestatie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrestatieRapport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrestatieRapport.Designer.cs">
+      <DependentUpon>frmPrestatieRapport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrestaties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrestaties.Designer.cs">
+      <DependentUpon>frmPrestaties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generator.cs" />
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB\Opname.cs" />
+    <Compile Include="DB\OpnameDB.cs" />
+    <Compile Include="DB\Patient.cs" />
+    <Compile Include="DB\PatientDB.cs" />
+    <Compile Include="DB\Personeel.cs" />
+    <Compile Include="DB\PersoneelDB.cs" />
+    <Compile Include="DB\Postcode.cs" />
+    <Compile Include="DB\PostcodeDB.cs" />
+    <Compile Include="DB\Prestaties.cs" />
+    <Compile Include="DB\PrestatiesDB.cs" />
+    <Compile Include="DB\Prestatiesoort.cs" />
+    <Compile Include="DB\PrestatiesoortDB.cs" />
+    <Compile Include="Formulieren %28Data Source%29\BewerkAfdelingen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulieren %28Data Source%29\BewerkAfdelingen.Designer.cs">
+      <DependentUpon>BewerkAfdelingen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulieren %28Data Source%29\BewerkPersoneel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulieren %28Data Source%29\BewerkPersoneel.Designer.cs">
+      <DependentUpon>BewerkPersoneel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulieren %28Data Source%29\BewerkPostcodes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulieren %28Data Source%29\BewerkPostcodes.Designer.cs">
+      <DependentUpon>BewerkPostcodes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulieren %28Data Source%29\BewerkPrestatiesoorten.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulieren %28Data Source%29\BewerkPrestatiesoorten.Designer.cs">
+      <DependentUpon>BewerkPrestatiesoorten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNieuwePatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNieuwePatient.Designer.cs">
+      <DependentUpon>frmNieuwePatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="patientenDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patientenDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmOpnamebeheer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpnamebeheer.Designer.cs">
+      <DependentUpon>frmOpnamebeheer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools.cs" />
+    <EmbeddedResource Include="Formulieren %28Data Source%29\BewerkPatienten.resx">
+      <DependentUpon>BewerkPatienten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenereerPatient.resx">
+      <DependentUpon>frmGenereerPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulieren %28Data Source%29\BewerkAfdelingen.resx">
+      <DependentUpon>BewerkAfdelingen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulieren %28Data Source%29\BewerkPersoneel.resx">
+      <DependentUpon>BewerkPersoneel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulieren %28Data Source%29\BewerkPostcodes.resx">
+      <DependentUpon>BewerkPostcodes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulieren %28Data Source%29\BewerkPrestatiesoorten.resx">
+      <DependentUpon>BewerkPrestatiesoorten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNieuwePatient.resx">
+      <DependentUpon>frmNieuwePatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNieuwePrestatie.resx">
+      <DependentUpon>frmNieuwePrestatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrestatieRapport.resx">
+      <DependentUpon>frmPrestatieRapport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrestaties.resx">
+      <DependentUpon>frmPrestaties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmOpnamebeheer.resx">
+      <DependentUpon>frmOpnamebeheer.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="patientenDataSet.xsc">
+      <DependentUpon>patientenDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="patientenDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patientenDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patientenDataSet.xss">
+      <DependentUpon>patientenDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

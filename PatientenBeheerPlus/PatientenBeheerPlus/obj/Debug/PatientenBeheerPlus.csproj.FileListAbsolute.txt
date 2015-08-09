@@ -1,0 +1,40 @@
+c:\users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\bin\Debug\PatientenBeheerPlus.exe.config
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\bin\Debug\PatientenBeheerPlus.exe
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\bin\Debug\PatientenBeheerPlus.pdb
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.csprojResolveAssemblyReference.cache
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.Properties.Resources.resources
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.csproj.GenerateResource.Cache
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.exe
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.pdb
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.BewerkAfdelingen.resources
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.BewerkPersoneel.resources
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.BewerkPostcodes.resources
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.BewerkPrestatiesoorten.resources
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.BewerkPatienten.resources
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.frmMain.resources
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.frmNieuwePatient.resources
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.frmOpnamebeheer.resources
+C:\Users\joachim\documents\visual studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.frmPrestaties.resources
+C:\Users\joachim\Documents\Visual Studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.frmNieuwePrestatie.resources
+C:\Users\joachim\Documents\Visual Studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.frmPrestatieRapport.resources
+C:\Users\joachim\Documents\Visual Studio 2012\Projects\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.frmGenereerPatient.resources
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\bin\Debug\PatientenBeheerPlus.exe.config
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.exe
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.pdb
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\bin\Debug\PatientenBeheerPlus.exe
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\bin\Debug\PatientenBeheerPlus.pdb
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.csprojResolveAssemblyReference.cache
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.BewerkPatienten.resources
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.frmGenereerPatient.resources
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.frmMain.resources
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.BewerkAfdelingen.resources
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.BewerkPersoneel.resources
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.BewerkPostcodes.resources
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.BewerkPrestatiesoorten.resources
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.frmNieuwePatient.resources
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.frmNieuwePrestatie.resources
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.frmPrestatieRapport.resources
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.frmPrestaties.resources
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.Properties.Resources.resources
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.frmOpnamebeheer.resources
+C:\temp\PatientenBeheerPlus\PatientenBeheerPlus\obj\Debug\PatientenBeheerPlus.csproj.GenerateResource.Cache
